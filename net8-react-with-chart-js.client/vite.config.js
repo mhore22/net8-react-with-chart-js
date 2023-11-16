@@ -49,6 +49,9 @@ export default defineConfig({
             '^/weatherforecast': {
                 target: 'https://localhost:7255/',
                 secure: false
+            },'^/chartdata': {
+                target: 'https://localhost:7255/',
+                secure: false
             }
         },
         port: 5173,
