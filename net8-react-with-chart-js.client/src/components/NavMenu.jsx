@@ -35,6 +35,9 @@ export class NavMenu extends Component {
               <NavItem>
                 <NavLink tag={Link} className="text-dark" to="/area-chart">Area Chart</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink tag={Link} className="text-dark" to="/bar-chart">Bar Chart</NavLink>
+              </NavItem>
             </ul>
           </Collapse>
         </Navbar>

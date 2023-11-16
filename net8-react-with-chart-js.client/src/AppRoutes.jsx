@@ -1,5 +1,6 @@
 import Home from "./components/Home.jsx";
 import AreaChart from "./components/AreaChart.jsx";
+import BarChart from "./components/BarChart.jsx";
 
 const AppRoutes = [
   {
@@ -9,6 +10,10 @@ const AppRoutes = [
   {
     path:'/area-chart',
     element: <AreaChart />
+  },
+  {
+    path:'/bar-chart',
+    element: <BarChart />
   },
 ];
 

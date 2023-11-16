@@ -11,6 +11,19 @@ export const areaChartOptions = {
   },
 };
 
+export const barChartOptions = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'top',
+    },
+    title: {
+      display: true,
+      text: 'Chart.js bar Chart',
+    },
+  },
+};
+
 export const chartColors = [
     {
         borderColor: 'RGBA(112, 193, 72)',

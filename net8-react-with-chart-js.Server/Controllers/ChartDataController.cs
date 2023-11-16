@@ -26,7 +26,7 @@ namespace net8_react_with_chart_js.Server.Controllers
         {
             return Enumerable.Range(0, 5).Select(year => new YearlySalesModel
             {
-                Year = 20211 + year,
+                Year = 2011 + year,
                 MonthlySales = Enumerable.Range(0, 12).Select(month => new MonthlySalesModel
                 {
                     Month = Months[month],
