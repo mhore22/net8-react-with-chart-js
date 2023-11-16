@@ -1,0 +1,6 @@
+@net8_react_with_chart_js.Server_HostAddress = http://localhost:5152
+
+GET {{net8_react_with_chart_js.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

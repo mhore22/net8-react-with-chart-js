@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/net8-react-with-chart-js.client/obj/Debug
+/net8-react-with-chart-js.Server/bin/Debug/net8.0
+/net8-react-with-chart-js.Server/obj
