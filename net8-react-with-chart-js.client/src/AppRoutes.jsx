@@ -1,6 +1,8 @@
 import Home from "./components/Home.jsx";
 import AreaChart from "./components/AreaChart.jsx";
 import BarChart from "./components/BarChart.jsx";
+import PieChart from "./components/PieChart.jsx";
+
 
 const AppRoutes = [
   {
@@ -14,6 +16,10 @@ const AppRoutes = [
   {
     path:'/bar-chart',
     element: <BarChart />
+  },
+  {
+    path:'/pie-chart',
+    element: <PieChart />
   },
 ];
 
